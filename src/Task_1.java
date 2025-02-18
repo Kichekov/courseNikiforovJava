@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task_1 {
-    public static void main(String[] args) {
+    public static void main(String[]args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите строку для подсчета символов: ");
         String text = scanner.nextLine();
@@ -13,8 +13,7 @@ public class Task_1 {
 
 
     public static long counter(String text, char ch) {
-        long count = text.chars().filter(c -> c == ch).count();
-        return count;
+        return text.chars().filter(c -> c == ch).count();
     }
 }
 
