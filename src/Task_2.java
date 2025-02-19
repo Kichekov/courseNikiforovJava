@@ -6,7 +6,7 @@ public class Task_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //String str = "HELLOWORLD";
-        System.out.println("Введите слово без пробеллов");
+        System.out.println("Введите слово без пробелов");
         String str = scanner.nextLine();
         counter(str);
     }
