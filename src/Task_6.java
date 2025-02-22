@@ -1,10 +1,12 @@
 import java.util.Arrays;
+import java.util.Optional;
 
 public class Task_6 {
     public static void main(String[] args) {
         int[] nums = {1,2,3,4};
         String str = Arrays.toString(runningSum(nums));
         System.out.println(str);
+
     }
 
     public static int[] runningSum(int[] nums) {
@@ -15,4 +17,5 @@ public class Task_6 {
         }
         return copyNums;
     }
+
 }
